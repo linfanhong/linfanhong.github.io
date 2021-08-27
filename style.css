@@ -57,6 +57,7 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
   
   .features figure {
@@ -72,7 +73,15 @@ body {
     box-shadow: gray 0 0 10px;
     width: 200px;
   }
-  
+  /*
+  @media screen and (max-width: 715px) {
+    .features {
+      display: block;
+    }
+    
+  }
+  */
+
   /* FOOTER */
   
   footer {
